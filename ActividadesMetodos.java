@@ -11,5 +11,5 @@ public class ActividadesMetodos {
         for (String dia : dias) {
             System.out.println(dia);
         }
-    }
+    } 
  }
