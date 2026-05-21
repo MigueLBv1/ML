@@ -12,19 +12,4 @@ public class ActividadesMetodos {
             System.out.println(dia);
         }
     }
- 
-    // Método para imprimir la tabla de multiplicar
-    public void imprimirTablaMultiplicar(int numero) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(numero + " x " + i + " = " + (numero * i));
-        }
-    }
- 
-    // Método main
-    public static void main(String[] args) {
-        ActividadesMetodos actividad = new ActividadesMetodos();
-        actividad.mostrarMensaje("¡Hola, bienvenido a la actividad!");
-        actividad.mostrarDiasSemana();
-        actividad.imprimirTablaMultiplicar(5); // Cambia el número según sea necesario
-    }
-}
+ }
